@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    alert("work");
     $(".slider").css("width", $(".imgSlide").css("width"));
     $(".slider").css("height", (parseInt($(".imgSlide").css("height")) - 100));
     $(".slider").css("margin-top", "-" + (parseInt($(".imgSlide").css("height")) - 100) + "px");
